@@ -5,9 +5,22 @@ class Crow
     @advancement += 1
   end
 
-  private
-  
-  def initialize
+  def win
+    put "Crow win and eat the fruits: -("
+   end
+
+  def lose
+    put "Crow lose :-("
+  end
+
+end
+
+
+
+
+
+
+
   end
 
 
