@@ -5,5 +5,4 @@ class Pathway
   def initialize
     pathway[0]= 1
   end
-
 end
