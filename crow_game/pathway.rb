@@ -1,13 +1,18 @@
 class Pathway
 
-attr-reader :pathway
+  attr_reader :pathway
  
- pathway = [0,0,0,0,0,0]
+  def position_on_pathway
+    
+  end
   
   private 
 
   def initialize
-    @pathway[0]= 1
+    @pathway = [1,0,0,0,0,0]
   end
 
 end
+p = Pathway.new
+p.pathway
+# => [1,0,0,0,0,0]
