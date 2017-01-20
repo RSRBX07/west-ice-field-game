@@ -1,5 +1,7 @@
 require_relative './three.rb'
+require_relative './bucket.rb'
 require_relative '/crow.rb'
+
 
 class Game
   attr_reader :red_tree
@@ -12,6 +14,7 @@ class Game
     @yellow_tree = Three.new
     @green_tree = Three.new
     @blue_tree = Three.new
+    @bucket = Bucket.new
     @crow = Crow.new
   end
 
