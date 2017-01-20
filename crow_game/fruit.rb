@@ -1,10 +1,9 @@
 class Fruit
   attr_reader :fruit
-  Colors = ["red","yellow","green","blue"]
+  # Colors = ["red","yellow","green","blue"]
    
-  def create_fruit color
-    color = "" 
-    @fruits = [color]
+  def initialize color
+    @fruit = color
   end
 
 end
