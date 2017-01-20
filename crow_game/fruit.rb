@@ -1,5 +1,5 @@
-class Fruits
-  attr_reader :fruits
+class Fruit
+  attr_reader :fruit
   
   def create_fruit name, color,
     name = ""
