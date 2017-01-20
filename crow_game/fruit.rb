@@ -8,8 +8,4 @@ class Fruit
     @fruits = [name,color,number]
   end
 
-  def move_fruit @fruits[1]
-    @fruits[3] = @fruits[3] -1
-    
-  end
 end
