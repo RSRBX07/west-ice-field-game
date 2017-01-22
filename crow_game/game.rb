@@ -19,6 +19,3 @@ class Game
   end
 
 end
-
-jeu = Game.new
-p jeu.red_tree
